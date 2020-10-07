@@ -30,7 +30,7 @@ describe('JavaScript Refresher Questions', function() {
     expect(dropFirstThreeElements(testArray)).toEqual([4,5,6]);
   });
 
-  xit('7. addElementToBeginningOfArray: add element to beginning of an array', function() {
+  it('7. addElementToBeginningOfArray: add element to beginning of an array', function() {
       testArray = [1,2,3];
       newElement = 'a';
       expect(addElementToBeginningOfArray(testArray, newElement)).toEqual(['a',1,2,3]);
