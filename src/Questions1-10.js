@@ -39,7 +39,8 @@ function removeNullsAndFalseFromArray(array) {
 // Question 5
 
 function reverseEveryElementInArray(array) {
-
+  let newArr = array.map(element => element.split("").reverse().join(""))
+  return newArr;
 };
 
 // Question 6
