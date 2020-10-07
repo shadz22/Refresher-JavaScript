@@ -61,7 +61,12 @@ function addElementToBeginningOfArray(array, element) {
 // Question 8
 
 function sortArrayByLastLetterOfEachWord(array) {
-
+  array.sort((a, b) => {
+    let aLastLetter = a.charAt(a.length - 1);
+    let bLastLetter = b.charAt(b.length - 1)
+    return aLastLetter < bLastLetter ? -1 : aLastLetter > bLastLetter ? 1 : 0;
+  })
+  return array;
 };
 
 // Question 9

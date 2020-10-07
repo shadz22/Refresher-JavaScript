@@ -36,7 +36,7 @@ describe('JavaScript Refresher Questions', function() {
       expect(addElementToBeginningOfArray(testArray, newElement)).toEqual(['a',1,2,3]);
   });
 
-  xit('8. sortArrayByLastLetterOfEachWord: return array sorted by last letter of each string element', function() {
+  it('8. sortArrayByLastLetterOfEachWord: return array sorted by last letter of each string element', function() {
     testArray = ['oatmeal', 'coffee', 'toast', 'tea'];
     expect(sortArrayByLastLetterOfEachWord(testArray)).toEqual(['tea', 'coffee', 'oatmeal', 'toast'])
   });
