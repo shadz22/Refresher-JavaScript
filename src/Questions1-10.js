@@ -46,6 +46,8 @@ function reverseEveryElementInArray(array) {
 // Question 6
 
 function dropFirstThreeElements(array) {
+  let newArr = array.slice(3);
+  return newArr;
 
 };
 

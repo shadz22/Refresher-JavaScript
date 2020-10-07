@@ -25,7 +25,7 @@ describe('JavaScript Refresher Questions', function() {
       expect(reverseEveryElementInArray(testArray)).toEqual(['eeffoc', 'aet', 'ekac', 'einworb']);
   });
 
-  xit('6. dropFirstThreeElements: return array with first three elements removed', function() {
+  it('6. dropFirstThreeElements: return array with first three elements removed', function() {
     testArray = [1,2,3,4,5,6]
     expect(dropFirstThreeElements(testArray)).toEqual([4,5,6]);
   });
