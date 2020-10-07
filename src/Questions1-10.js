@@ -1,18 +1,30 @@
 // Question 1
 
 function selectElementsStartingWithE(array) {
-
+  let newArr = array.filter((element) => element.startsWith("e"));
+  return newArr;
+  
+  // var array = $.grep(array, function(item) {
+  //   return item.charAt(0) === 'e';
+  // })
+  // return array;
 };
 
-// Question 2
+
+
+// Question 2 
 
 function selectElementsStartingWithVowel(array) {
-
+  var array = array.filter(str => /^[aeiou]/i.test(str));
+  return array;
+  
 };
 
 // Question 3
 
 function removeNullsFromArray(array) {
+  let filteredArray = array.filter(element => element != null)
+  return filteredArray;
 
 };
 
