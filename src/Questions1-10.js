@@ -1,7 +1,7 @@
 // Question 1
 
 function selectElementsStartingWithE(array) {
-  let newArr = array.filter((element) => element.startsWith("e"));
+  let newArr = array.filter(element => element.startsWith("e"));
   return newArr;
   
   // var array = $.grep(array, function(item) {
@@ -31,6 +31,8 @@ function removeNullsFromArray(array) {
 // Question 4
 
 function removeNullsAndFalseFromArray(array) {
+  let newArr = array.filter(element => element)
+  return newArr;
 
 };
 
