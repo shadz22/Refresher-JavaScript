@@ -44,7 +44,7 @@ function longestWordInArray(array) {
 
 function arrayTotal(array) {
   let total = array.reduce((sum, number) => {
-    return sum += number;
+    return sum + number;
   })
   return total;
 };
@@ -52,7 +52,13 @@ function arrayTotal(array) {
 // Question 16
 
 function doubleArray(array) {
-
+  let newArray = array.slice();
+  let resultArray = array.concat(newArray);
+  return resultArray;
+  /* or this way:
+  var result = array.concat(array);
+  return array;
+  */
 };
 
 // Question 17

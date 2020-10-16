@@ -76,7 +76,7 @@ describe('JavaScript Refresher Questions', function() {
     expect(arrayTotal(testArray)).toEqual(28);
   });
 
-  xit('16. doubleArray: return duplicate of array within a single array and NOT sorted', function() {
+  it('16. doubleArray: return duplicate of array within a single array and NOT sorted', function() {
     testArray = [1,2,3]
     expect(doubleArray(testArray)).toEqual([1,2,3,1,2,3]);
   });
