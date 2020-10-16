@@ -74,6 +74,8 @@ function averageOfArray(array) {
 // Question 18
 
 function removeElementsGreaterThanFive(array) {
+  let newArray = array.filter(number => number <= 5);
+  return newArray;
 
 };
 

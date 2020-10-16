@@ -88,7 +88,7 @@ describe('JavaScript Refresher Questions', function() {
     expect(averageOfArray(testArrayB)).toEqual(13.3);
   });
 
-  xit('18. removeElementsGreaterThanFive: return array with elements less than or equal to 5', function() {
+  it('18. removeElementsGreaterThanFive: return array with elements less than or equal to 5', function() {
     testArray = [1,2,6,8,3,4,1,6,10,5,22,4];
     expect(removeElementsGreaterThanFive(testArray)).toEqual([1,2,3,4,1,5,4]);
   });
