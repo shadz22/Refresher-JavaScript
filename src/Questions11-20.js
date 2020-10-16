@@ -1,7 +1,13 @@
 // Question 11
 
 function separateArrayIntoEvenAndOddNumbers(array) {
+  let resultArray = [];
 
+  let evenArray = array.filter(element => element % 2 === 0);
+  let oddArray = array.filter(element =>  element % 2 !== 0); 
+    
+    resultArray.push(evenArray, oddArray);
+    return resultArray;
 };
 
 // Question 12
