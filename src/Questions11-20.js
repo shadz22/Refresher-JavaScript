@@ -32,7 +32,11 @@ function shortestWordInArray(array) {
 // Question 14
 
 function longestWordInArray(array) {
- 
+  array.sort((a, b) => {
+    // return a.length < b.length ? -1 : a.length > b.length ? 1 : 0;
+    return b.length - a.length;
+  })
+  return array[0];
 
 };
 

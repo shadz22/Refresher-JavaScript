@@ -66,7 +66,7 @@ describe('JavaScript Refresher Questions', function() {
       expect(shortestWordInArray(testArray)).toEqual('tea');
   });
 
-  xit('14. longestWordInArray: return longest string in an array', function() {
+  it('14. longestWordInArray: return longest string in an array', function() {
     testArray = ['muffin', 'scone', 'tea', 'coffee', 'cafe', 'chocolate'];
     expect(longestWordInArray(testArray)).toEqual('chocolate');
   });
