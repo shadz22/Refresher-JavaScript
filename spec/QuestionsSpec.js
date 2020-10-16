@@ -81,7 +81,7 @@ describe('JavaScript Refresher Questions', function() {
     expect(doubleArray(testArray)).toEqual([1,2,3,1,2,3]);
   });
 
-  xit('17. averageOfArray: return average of number elements within an array', function() {
+  it('17. averageOfArray: return average of number elements within an array', function() {
     testArrayA = [8,5,17,24,1,5];
     testArrayB = [5,25,10];
     expect(averageOfArray(testArrayA)).toEqual(10);

@@ -64,6 +64,10 @@ function doubleArray(array) {
 // Question 17
 
 function averageOfArray(array) {
+  let arraySum = array.reduce((total, number) => {
+    return total + number;
+  })
+  return parseFloat((arraySum / array.length).toFixed(1));
 
 };
 
