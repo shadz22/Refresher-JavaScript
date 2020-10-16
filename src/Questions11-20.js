@@ -86,7 +86,15 @@ function isLessThanFive(element) {
 // Question 19
 
 function convertArrayToObject(array) {
+  //  in ES6
+  return {...array}
 
+  /* in ES5
+  var result = {};
+  for(var i = 0; i < array.length; i++)
+    result[i] = array[i]
+    return result;
+  */
 };
 
 // Question 20
