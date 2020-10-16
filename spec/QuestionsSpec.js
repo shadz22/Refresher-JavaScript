@@ -61,7 +61,7 @@ describe('JavaScript Refresher Questions', function() {
       expect(numberOfElementsThatArePalindromes(testArray)).toEqual(3);
   });
 
-  xit('13. shortestWordInArray: return shortest string in an array', function() {
+  it('13. shortestWordInArray: return shortest string in an array', function() {
       testArray = ['muffin', 'scone', 'tea', 'coffee', 'cafe', 'chocolate'];
       expect(shortestWordInArray(testArray)).toEqual('tea');
   });
