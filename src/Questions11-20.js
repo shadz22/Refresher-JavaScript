@@ -13,6 +13,8 @@ function separateArrayIntoEvenAndOddNumbers(array) {
 // Question 12
 
 function numberOfElementsThatArePalindromes(array) {
+  let result = array.filter(element => element === element.split("").reverse().join(""))
+  return result.length;
 
 };
 
