@@ -43,7 +43,10 @@ function longestWordInArray(array) {
 // Question 15
 
 function arrayTotal(array) {
-
+  let total = array.reduce((sum, number) => {
+    return sum += number;
+  })
+  return total;
 };
 
 // Question 16

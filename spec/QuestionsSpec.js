@@ -71,7 +71,7 @@ describe('JavaScript Refresher Questions', function() {
     expect(longestWordInArray(testArray)).toEqual('chocolate');
   });
 
-  xit('15. arrayTotal: return total of number elements in an array', function() {
+  it('15. arrayTotal: return total of number elements in an array', function() {
     testArray = [1,3,5,9,10];
     expect(arrayTotal(testArray)).toEqual(28);
   });
