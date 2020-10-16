@@ -100,5 +100,10 @@ function convertArrayToObject(array) {
 // Question 20
 
 function getLettersInArrayOfWords(array) {
+  let newArray = array.map(word => word.split(""));
+  let result = newArray.reduce((previous, next) => {
+    return previous.concat(next);
+  })
+  return result.sort();
 
 };

@@ -98,7 +98,7 @@ describe('JavaScript Refresher Questions', function() {
     expect(convertArrayToObject(testArray)).toEqual({0: 'a', 1: 'b', 2:'c'});
   });
 
-  xit('20. getLettersInArrayOfWords: return array with letters of all words sorted in alphabetical order', function() {
+  it('20. getLettersInArrayOfWords: return array with letters of all words sorted in alphabetical order', function() {
     testArray = ['hi', 'bye', 'no', 'yes'];
     expect(getLettersInArrayOfWords(testArray)).toEqual(['b','e','e','h','i','n','o','s','y','y'])
   });
