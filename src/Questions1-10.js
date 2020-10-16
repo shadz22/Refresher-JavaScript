@@ -15,9 +15,10 @@ function selectElementsStartingWithE(array) {
 // Question 2 
 
 function selectElementsStartingWithVowel(array) {
-  var array = array.filter(str => /^[aeiou]/i.test(str));
+  var array = array.filter(str => /^[aeiou]/i.test(str)); 
   return array;
-  
+  /*The test() method executes a search for a match between a regular 
+  expression and a specified string. Returns true or false */
 };
 
 // Question 3
@@ -72,7 +73,13 @@ function sortArrayByLastLetterOfEachWord(array) {
 // Question 9
 
 function returnFirstHalfOfString(string) {
-
+  if(string.length % 2 === 0) {
+    let newString = string.slice(0, string.length / 2);
+    return newString;
+  } else {
+    newString = string.slice(0, (string.length / 2) + 1 )
+    return newString;
+  }
 };
 
 // Question 10

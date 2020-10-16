@@ -41,7 +41,7 @@ describe('JavaScript Refresher Questions', function() {
     expect(sortArrayByLastLetterOfEachWord(testArray)).toEqual(['tea', 'coffee', 'oatmeal', 'toast'])
   });
 
-  xit('9. returnFirstHalfOfString: return first half of a string', function() {
+  it('9. returnFirstHalfOfString: return first half of a string', function() {
       expect(returnFirstHalfOfString('coffee')).toEqual('cof');
       expect(returnFirstHalfOfString('water')).toEqual('wat');
   });
