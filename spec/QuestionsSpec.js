@@ -157,12 +157,12 @@ describe('JavaScript Refresher Questions', function() {
     expect(checkStringForSpecialCharacters(stringB)).toBe(true);
   });
 
-  xit('31. getUpperLimitOfRange: return max value of pre-determined range of numbers', function() {
+  it('31. getUpperLimitOfRange: return max value of pre-determined range of numbers', function() {
     range = Array.apply(null, Array(25)).map(function (_, i) {return i+1;});
     expect(getUpperLimitOfRange(range)).toEqual(25);
   });
 
-  xit('32. squareRootOf: return the square root of a given number', function() {
+  it('32. squareRootOf: return the square root of a given number', function() {
     numberA = 25;
     numberB = 75;
     expect(squareRootOf(25)).toEqual(5);

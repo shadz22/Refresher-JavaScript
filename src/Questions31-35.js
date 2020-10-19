@@ -1,13 +1,13 @@
 // Question 31
 
 function getUpperLimitOfRange(range) {
-
+  return range[(range.length -1)];
 };
 
 // Question 32
 
 function squareRootOf(number) {
-
+  return Math.sqrt(number);
 };
 
 // Question 33
