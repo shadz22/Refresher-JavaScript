@@ -108,7 +108,7 @@ describe('JavaScript Refresher Questions', function() {
     expect(swapKeysAndValuesInObject(testObject)).toEqual({'a':1, 'b':2, 'c':3});
   });
 
-  xit('22. addKeysAndValues: return sum of numerical keys and values in object', function() {
+  it('22. addKeysAndValues: return sum of numerical keys and values in object', function() {
       testObject = {1:2, 3:4, 5:6}
       expect(addKeysAndValues(testObject)).toEqual(21);
   });
