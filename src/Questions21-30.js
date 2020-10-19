@@ -55,6 +55,7 @@ function roundUpNumber(number) {
 // Question 26
 
 function roundDownNumber(number) {
+  return Math.floor(number);
 
 };
 

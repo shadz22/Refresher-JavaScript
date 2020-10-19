@@ -128,7 +128,7 @@ describe('JavaScript Refresher Questions', function() {
       expect(roundUpNumber(8.1623)).toEqual(9);
   });
 
-  xit('26. roundDownNumber: round all decimal numbers down to the previous whole number', function() {
+  it('26. roundDownNumber: round all decimal numbers down to the previous whole number', function() {
     expect(roundDownNumber(3.5)).toEqual(3);
     expect(roundDownNumber(8.1623)).toEqual(8);
   });
