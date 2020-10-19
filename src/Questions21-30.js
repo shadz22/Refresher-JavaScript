@@ -22,7 +22,13 @@ function addKeysAndValues(object) {
 // Question 23
 
 function removeCapitalLettersFromString(string) {
-
+  let newArr = string.split(' ');
+  let tempArr = [];
+  newArr.forEach(word => {
+    let noUppercase = word.replace( /[A-Z]/g, '');
+    tempArr.push(noUppercase);
+  })
+ return tempArr.join(' ');
 };
 
 // Question 24

@@ -113,7 +113,7 @@ describe('JavaScript Refresher Questions', function() {
       expect(addKeysAndValues(testObject)).toEqual(21);
   });
 
-  xit('23. removeCapitalLettersFromString: return string with all capital letters removed', function() {
+  it('23. removeCapitalLettersFromString: return string with all capital letters removed', function() {
     testString = 'Coffee Please andThankYou';
     expect(removeCapitalLettersFromString(testString)).toEqual('offee lease andhankou')
   });
