@@ -77,7 +77,8 @@ function getDomainNameFromEmailAddress(email) {
 // Question 29
 
 function titleizeString(string) {
-
+ return string.toLowerCase().replace(/^.|\s\S/g, (a) => a.toUpperCase());
+  
 };
 
 // Question 30

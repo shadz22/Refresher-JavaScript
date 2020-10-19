@@ -145,7 +145,7 @@ describe('JavaScript Refresher Questions', function() {
     expect(getDomainNameFromEmailAddress(emailB)).toEqual('emailme');
   });
 
-  xit('29. titleizeString: return string with first letter of each word capitalised, except for certain words (and, in, the, of, a, an, to)', function() {
+  it('29. titleizeString: return string with first letter of each word capitalised, except for certain words (and, in, the, of, a, an, to)', function() {
     testString = 'the definitive guide to international relations in the 21st century';
     expect(titleizeString(testString)).toEqual('The Definitive Guide To International Relations In The 21st Century');
   });
