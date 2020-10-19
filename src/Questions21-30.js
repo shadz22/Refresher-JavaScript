@@ -71,7 +71,7 @@ function formatDateNicely(date) {
 // Question 28
 
 function getDomainNameFromEmailAddress(email) {
-
+  return email.split('@')[1].split('.')[0];
 };
 
 // Question 29

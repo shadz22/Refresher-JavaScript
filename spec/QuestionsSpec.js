@@ -138,7 +138,7 @@ describe('JavaScript Refresher Questions', function() {
     expect(formatDateNicely(date)).toEqual('24-Mar-2015');
   });
 
-  xit('28. getDomainNameFromEmailAddress: return domain name of email address without @ or .com', function() {
+  it('28. getDomainNameFromEmailAddress: return domain name of email address without @ or .com', function() {
     emailA = 'test@emailprovider.com';
     emailB = 'test@emailme.co.uk'
     expect(getDomainNameFromEmailAddress(emailA)).toEqual('emailprovider');
