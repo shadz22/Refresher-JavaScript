@@ -105,5 +105,4 @@ function getLettersInArrayOfWords(array) {
     return previous.concat(next);
   })
   return result.sort();
-
 };

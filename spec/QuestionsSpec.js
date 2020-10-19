@@ -103,7 +103,7 @@ describe('JavaScript Refresher Questions', function() {
     expect(getLettersInArrayOfWords(testArray)).toEqual(['b','e','e','h','i','n','o','s','y','y'])
   });
 
-  xit('21. swapKeysAndValuesInObject: return an object with key and values switched', function() {
+  it('21. swapKeysAndValuesInObject: return an object with key and values switched', function() {
     testObject = {1:'a', 2:'b', 3:'c'};
     expect(swapKeysAndValuesInObject(testObject)).toEqual({'a':1, 'b':2, 'c':3});
   });

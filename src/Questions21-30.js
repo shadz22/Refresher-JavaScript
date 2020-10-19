@@ -1,7 +1,11 @@
 // Question 21
 
 function swapKeysAndValuesInObject(object) {
-
+  let result = {};
+  for(let key in object) {
+    result[object[key]] = parseInt(key)
+  };
+  return result;
 };
 
 // Question 22
