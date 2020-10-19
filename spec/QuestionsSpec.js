@@ -123,7 +123,7 @@ describe('JavaScript Refresher Questions', function() {
     expect(everyPossiblePairing(testArray)).toEqual([['Emma', 'Samaire'], ['Emma', 'Liam'], ['Samaire', 'Liam']]);
   });
 
-  xit('25. roundUpNumber: round all decimal numbers up to the next whole number', function() {
+  it('25. roundUpNumber: round all decimal numbers up to the next whole number', function() {
       expect(roundUpNumber(3.5)).toEqual(4);
       expect(roundUpNumber(8.1623)).toEqual(9);
   });

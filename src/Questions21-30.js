@@ -48,7 +48,8 @@ function everyPossiblePairing(array) {
 // Question 25
 
 function roundUpNumber(number) {
-
+  let result = Math.ceil(number);
+  return result;
 };
 
 // Question 26
