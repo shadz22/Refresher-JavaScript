@@ -150,7 +150,7 @@ describe('JavaScript Refresher Questions', function() {
     expect(titleizeString(testString)).toEqual('The Definitive Guide To International Relations In The 21st Century');
   });
 
-  xit('30. checkStringForSpecialCharacters: return true or false if string contains non-alphanumerical characters', function() {
+  it('30. checkStringForSpecialCharacters: return true or false if string contains non-alphanumerical characters', function() {
     stringA = 'abcd1234'
     stringB = 'abcd1234!@#$'
     expect(checkStringForSpecialCharacters(stringA)).toBe(false);

@@ -84,5 +84,5 @@ function titleizeString(string) {
 // Question 30
 
 function checkStringForSpecialCharacters(string) {
-
+  return string.match(/[^A-Za-z0-9\-]/) ? true : false;
 };
