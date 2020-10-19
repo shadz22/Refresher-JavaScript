@@ -34,7 +34,15 @@ function removeCapitalLettersFromString(string) {
 // Question 24
 
 function everyPossiblePairing(array) {
-
+  let result = [];
+  for(let i = 0; i < array.length -1; i++) {
+    for(let j = 1; j < array.length; j++) {
+      if(array[i] !== array[j]) {
+        result.push([array[i], array[j]]);
+      }
+    }
+  }
+  return result;
 };
 
 // Question 25
