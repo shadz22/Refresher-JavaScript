@@ -62,7 +62,10 @@ function roundDownNumber(number) {
 // Question 27
 
 function formatDateNicely(date) {
-
+  let months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+  let currentMonth = months[date.getMonth()];
+  let niceDate = date.getDate() + "-" + currentMonth + "-" + date.getFullYear();
+  return niceDate;
   };
 
 // Question 28

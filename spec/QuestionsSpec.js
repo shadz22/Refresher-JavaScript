@@ -133,7 +133,7 @@ describe('JavaScript Refresher Questions', function() {
     expect(roundDownNumber(8.1623)).toEqual(8);
   });
 
-  xit('27. formatDateNicely: format date in a user-friendly format', function() {
+  it('27. formatDateNicely: format date in a user-friendly format', function() {
     date = new Date(2015, 02, 24)
     expect(formatDateNicely(date)).toEqual('24-Mar-2015');
   });
