@@ -169,7 +169,7 @@ describe('JavaScript Refresher Questions', function() {
     expect(squareRootOf(75)).toEqual(8.660254037844387);
   });
 
-  xit('33. callMethodFromString: allows user to call a method using the method name converted to a string', function() {
+  it('33. callMethodFromString: allows user to call a method using the method name converted to a string', function() {
     expect(callMethodFromString('sayHello')).toEqual('Hello!');
   })
 
